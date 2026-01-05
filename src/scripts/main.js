@@ -24,15 +24,15 @@ const hanldeSuccess = () => {
   const div = document.createElement('div');
 
   div.classList.add('message');
-  div.textContent = 'Promise was resolved';
+  div.textContent = 'Promise was resolved!';
   document.body.appendChild(div);
 };
 
 const handleError = () => {
   const div = document.createElement('div');
 
-  div.classList.add('message');
-  div.textContent = 'Promise was rejected';
+  div.classList.add('error-message');
+  div.textContent = 'Promise was rejected!';
   document.body.appendChild(div);
 };
 
